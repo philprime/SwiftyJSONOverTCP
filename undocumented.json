@@ -1,0 +1,75 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTLengthCoder.swift",
+      "line": 3,
+      "symbol": "JOTLengthCoder",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTLengthCoder.swift",
+      "line": 5,
+      "symbol": "JOTLengthCoder.encode(length:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTLengthCoder.swift",
+      "line": 13,
+      "symbol": "JOTLengthCoder.decodeLength(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTPacket.swift",
+      "line": 3,
+      "symbol": "JOTPacket",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTPacket.swift",
+      "line": 5,
+      "symbol": "JOTPacket.MagicByte",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTPacket.swift",
+      "line": 7,
+      "symbol": "JOTPacket.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTPacket.swift",
+      "line": 9,
+      "symbol": "JOTPacket.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/JOTPacket.swift",
+      "line": 13,
+      "symbol": "JOTPacket.encode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/SwiftyJSONOverTCPError.swift",
+      "line": 1,
+      "symbol": "SwiftyJSONOverTCPError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP/Sources/SwiftyJSONOverTCP/SwiftyJSONOverTCPError.swift",
+      "line": 2,
+      "symbol": "SwiftyJSONOverTCPError.invalidPayloadSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/SwiftyJSONOverTCP/SwiftyJSONOverTCP"
+}
