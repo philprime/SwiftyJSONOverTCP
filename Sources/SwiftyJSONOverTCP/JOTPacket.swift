@@ -1,6 +1,6 @@
 import Foundation
 
-public struct JSONOverTCPPacket {
+public struct JOTPacket {
 
     public static let MagicByte: UInt8 = 0xCE
 
@@ -11,7 +11,7 @@ public struct JSONOverTCPPacket {
     }
 
     public func encode() throws -> Data {
-        let lengthBytes = try JSONOverTCPLengthCoder.encode(length: UInt(data.count))
-        return Data([JSONOverTCPPacket.MagicByte] + lengthBytes) + data
+        let lengthBytes = try JOTLengthCoder.encode(length: UInt(data.count))
+        return Data([JOTPacket.MagicByte] + lengthBytes) + data
     }
 }

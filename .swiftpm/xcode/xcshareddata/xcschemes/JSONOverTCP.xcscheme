@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "JSONOverTCP"
-               BuildableName = "JSONOverTCP"
-               BlueprintName = "JSONOverTCP"
+               BlueprintIdentifier = "SwiftyJSONOverTCP"
+               BuildableName = "SwiftyJSONOverTCP"
+               BlueprintName = "SwiftyJSONOverTCP"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "JSONOverTCPTests"
-               BuildableName = "JSONOverTCPTests"
-               BlueprintName = "JSONOverTCPTests"
+               BlueprintIdentifier = "SwiftyJSONOverTCPTests"
+               BuildableName = "SwiftyJSONOverTCPTests"
+               BlueprintName = "SwiftyJSONOverTCPTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
@@ -60,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "JSONOverTCP"
-            BuildableName = "JSONOverTCP"
-            BlueprintName = "JSONOverTCP"
+            BlueprintIdentifier = "SwiftyJSONOverTCP"
+            BuildableName = "SwiftyJSONOverTCP"
+            BlueprintName = "SwiftyJSONOverTCP"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>

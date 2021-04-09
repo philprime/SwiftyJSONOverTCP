@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "JSONOverTCP",
+    name: "SwiftyJSONOverTCP",
     products: [
-        .library(name: "JSONOverTCP", targets: ["JSONOverTCP"]),
+        .library(name: "SwiftyJSONOverTCP", targets: ["SwiftyJSONOverTCP"]),
     ],
     targets: [
-        .target(name: "JSONOverTCP"),
-        .testTarget(name: "JSONOverTCPTests", dependencies: ["JSONOverTCP"]),
+        .target(name: "SwiftyJSONOverTCP"),
+        .testTarget(name: "SwiftyJSONOverTCPTests", dependencies: ["SwiftyJSONOverTCP"]),
     ]
 )

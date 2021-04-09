@@ -1,16 +1,16 @@
 import Foundation
 
-public class JSONOverTCPLengthCoder {
+public class JOTLengthCoder {
 
     public static func encode(length: UInt) throws -> [UInt8] {
         guard length >= 0 && length <= UInt32.max else {
-            throw JSONOverTCPError.invalidPayloadSize
+            throw SwiftyJSONOverTCPError.invalidPayloadSize
         }
         let length = UInt32(length)
         return withUnsafeBytes(of: length.bigEndian, Array.init)
     }
 
-    public static func decode(bytes: [UInt8]) -> UInt32? {
+    public static func decodeLength(from bytes: [UInt8]) -> UInt32? {
         guard bytes.count == 4 else {
             return nil
         }
